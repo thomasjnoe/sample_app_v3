@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby   '2.1.1'
+#ruby   '2.1.5'
 
-gem 'rails',                   '4.2.0.beta2'
+gem 'rails',                   '4.2.0rc2'
 gem 'bcrypt',                  '3.1.7'
 gem 'faker',                   '1.4.2'
 gem 'carrierwave',             '0.10.0'
@@ -20,7 +20,7 @@ gem 'rails-html-sanitizer',    '1.0.1'
 gem 'sdoc',                    '0.4.0', group: :doc
 
 group :development, :test do
-  gem 'sqlite3',     '1.3.9'
+  gem 'sqlite3',     '1.3.10'
   gem 'byebug',      '3.4.0'
   gem 'web-console', '2.0.0.beta3'
   gem 'spring',      '1.1.3'
